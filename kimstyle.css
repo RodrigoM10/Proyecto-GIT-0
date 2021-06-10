@@ -1,0 +1,272 @@
+body {
+    /* background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 2%, rgba(121,9,9,1) 18%, rgba(224,137,10,1) 40%, rgba(5, 161, 96, 0.788) 50%, rgba(16,176,236,1) 60%, rgba(0,83,255,1) 82%, rgba(0,0,0,1) 98%);
+    */
+    /* background: rgb(158, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(158, 0, 0, 1) 0%,
+        rgba(103, 0, 0, 1) 5%,
+        rgba(70, 0, 0, 1) 11%,
+        rgba(25, 0, 0, 1) 17%,
+        rgba(0, 0, 0, 1) 25%,
+        rgba(0, 0, 0, 1) 50%,
+        rgba(0, 0, 0, 1) 75%,
+        rgba(25, 0, 0, 1) 83%,
+        rgba(70, 0, 0, 1) 89%,
+        rgba(103, 0, 0, 1) 95%,
+        rgba(158, 0, 0, 1) 100%
+    ); */
+    background: rgb(28, 28, 28);
+    background: linear-gradient(
+        90deg,
+        rgba(28, 28, 28, 1) 0%,
+        rgba(0, 0, 0, 1) 10%,
+        rgba(0, 0, 0, 1) 50%,
+        rgba(1, 1, 1, 1) 90%,
+        rgba(28, 28, 28, 1) 100%
+    );
+    font-family: "Montserrat", sans-serif;
+}
+
+/* NAVBAR */
+.barra-boos {
+    background-color: blanchedalmond;
+    /* background-image: url(./imgkimetsu/FOOTERTANJIRO.jpg); */
+    font-family: "Trade Winds", cursive;
+    border-bottom: 3px solid darkred;
+    /* border:3px solid rgb(184, 1, 1); */
+}
+.rodri-senpai {
+    color: rgb(0, 0, 0);
+}
+.rodri-senpai:hover {
+    color: rgba(139, 0, 0, 0.822);
+}
+
+.logo {
+    width: 55px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.giro {
+    transition-duration: 0.7s;
+}
+.giro:hover {
+    transform: rotate3d(0.8, 1, 0, 360deg);
+    transition-timing-function: ease-in-out;
+}
+
+/* CARDS/PILARES/DEMONIOS */
+.card {
+    margin: 1rem 1rem;
+    text-align: center;
+    min-width: 300px;
+    min-height: 375px;
+}
+.card-tomioka {
+    background-color: lightskyblue;
+}
+.textos-dp {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0px 50px;
+}
+/* PILARES */
+.btn-shinobu {
+    color: white;
+    background-color: indigo;
+    padding: 1px 6px;
+    border: 2px outset indigo
+}
+.btn-shinobu:hover {
+    background-color: rgb(86, 26, 129);
+    border-color: rgb(86, 26, 129);
+}
+.btn-shinobu:active {
+    border: 2px inset indigo;
+}
+.btn-shinobu:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(76, 0, 130, 0.562);
+}
+.btn-mitsuri {
+    color: white;
+    background-color: rgb(235, 57, 160);
+    padding: 1px 6px;
+    border: 2px outset rgb(235, 57, 160);
+}
+.btn-mitsuri:hover {
+    background-color: rgb(240, 0, 140);
+    border-color:  rgb(240, 0, 140);
+}
+.btn-mitsuri:active {
+    border: 2px inset rgb(235, 57, 160);
+}
+.btn-mitsuri:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(235, 57, 161, 0.575);
+}
+.btn-obanai {
+    color: white;
+    background: rgb(91,55,7);
+    background: linear-gradient(90deg, rgba(91,55,7,1) 24%, rgba(0,0,0,1) 50%, rgba(7,51,89,1) 75%);
+    padding: 1px 6px;
+    border: 2px outset rgba(91,55,7,1); 
+}
+.btn-obanai:hover {
+    background: rgb(91,55,7);
+    background: linear-gradient(90deg, rgb(136, 78, 2) 24%, rgb(22, 22, 22) 50%, rgb(10, 68, 119) 75%);
+}
+.btn-obanai:active {
+    border: 2px inset rgba(91,55,7,1); 
+}
+.btn-obanai:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(10, 68, 119, 0.521);
+}
+.btn-sanemi{
+    color: rgb(0, 0, 0);
+    background: rgb(196, 196, 196);
+    padding: 1px 6px;
+    border: 2px outset rgb(211, 211, 211); 
+}
+.btn-sanemi:hover {
+    background: rgb(187, 187, 187);
+   
+}
+.btn-sanemi:active {
+    border: 2px inset rgb(172, 172, 172); 
+}
+.btn-sanemi:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(105, 105, 105, 0.521);
+}
+.btn-tokito{
+    color: rgb(0, 0, 0);
+    background: rgb(0, 123, 145);
+    padding: 1px 6px;
+    border: 2px outset rgb(0, 123, 145);
+}
+.btn-tokito:hover {
+    background: rgb(11, 80, 92);
+   
+}
+.btn-tokito:active {
+    border: 2px inset rgb(0, 123, 145); 
+}
+.btn-tokito:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(5, 167, 196, 0.548);;
+}
+/* acordion */
+
+.acordion-item2 {
+    background-color: transparent;
+}
+.acordion-boton {
+    font-family: "Trade Winds", cursive;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+ /* CARDS */
+.tanjiro {
+    color: rgb(1, 248, 125);
+    background: rgb(94, 43, 104);
+    background: radial-gradient(circle, rgba(94, 43, 104, 0.8830882694874825) 0%, rgba(0, 0, 0, 1) 74%);
+}
+.tanjiro-img {
+    min-width: 230px;
+    min-height: 230px;
+    border: 3px solid rgba(1, 248, 125, 0.500);
+    border-radius: 1rem;
+}
+.nezuko {
+    color: rgb(240, 0, 140);
+    background: rgb(238, 182, 161);
+    background: radial-gradient(circle, rgba(212, 160, 140, 0.438) 0%, rgba(2, 1, 0, 1) 74%);
+}
+.nezuko-img {
+    min-width: 230px;
+    min-height: 230px;
+    border: 3px solid rgba(240, 0, 140, 0.500);
+    border-radius: 1rem;
+}
+
+.inosuke {
+    color: silver;
+    background: rgb(24, 65, 126);
+    background: radial-gradient(circle, rgba(24, 65, 126, 0.8130602582830007) 0%, rgba(2, 1, 0, 1) 74%);
+    border: rgb(238, 203, 187);
+}
+.inosuke-img {
+    min-width: 230px;
+    min-height: 230px;
+    border: 3px solid rgba(24, 65, 126, 0.500);
+    border-radius: 1rem;
+}
+.zenitsu {
+    color: gold;
+    background: rgb(79, 79, 79);
+    background: radial-gradient(circle, rgba(148, 148, 148, 0.589) 0%, rgba(0, 0, 0, 1) 74%);
+}
+.zenitsu-img {
+    min-width: 230px;
+    min-height: 230px;
+    border: 3px solid rgba(255, 217, 0, 0.500);
+    border-radius: 1rem;
+}
+.tomioka {
+    color: rgb(29, 165, 165);
+    background: rgba(255, 250, 250, 0.719);
+    background: radial-gradient(circle, rgba(255, 250, 250, 0.288) 0%, rgba(0, 0, 0, 1) 74%);
+    border: rgb(6, 2, 53);
+}
+.tomioka-img {
+    min-width: 230px;
+    min-height: 230px;
+    border: 3px solid rgba(29, 165, 165, 0.500);
+    border-radius: 1rem;
+}
+.muzan {
+    color: rgb(145, 2, 2);
+    background: rgb(115, 39, 39);
+    background: radial-gradient(circle, rgba(115, 39, 39, 0.5637605383950455) 0%, rgba(0, 0, 0, 1) 74%);
+}
+.muzan-img {
+    min-width: 230px;
+    min-height: 230px;
+    border: 3px solid rgba(145, 2, 2, 0.500);
+    border-radius: 1rem;
+}
+/* FOOTER */
+.footer {
+    font-family: "Trade Winds", cursive;
+
+    background-image: url(./imgkimetsu/ropanezuko.jpg);
+}
+.footer2 a {
+    font-size: 13px;
+    text-decoration: none;
+}
+.footer2 a:link {
+    color: #1a1a1a;
+}
+.footer2 a:visited {
+    color: #1a1a1a;
+}
+.footer2 a:hover {
+    color: #df10ab;
+}
+.footer2 a:active {
+    color: #1a1a1a;
+}
+
+.politic {
+    margin: 1rem 0.7rem;
+}
+.social-icon {
+    font-size: 30px;
+    margin: 2rem 0.7rem;
+}
